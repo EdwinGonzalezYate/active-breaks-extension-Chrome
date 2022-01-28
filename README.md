@@ -28,4 +28,4 @@ var minutoD = 4;
 Más detalles sobre la extensión en **manifest.json**.
 
 ## Contact
-Estás experimentando dificultades? Contáctanos: contacto@artntech.com.co
+Estás experimentando dificultades? Contáctanos: contacto@artntech.com.co https://www.artntech.com.co
