@@ -5,9 +5,18 @@
   "description": "Pausas activas extensión busca promover los ejercicios dispuestos de forma periódica y programada",
   "version": "1.0",
 
+  "icons":{
+    "16": "web-icon.png",
+    "48": "web-icon.png",
+    "128": "web-icon.png"
+  },
+
   "background": {
     "scripts" : ["popup.js"]
   },
+  "action": {
+    "default_title": "Active-breaks"
+},
 
   "browser_action": {
     "default_icon": "web-icon.png"
