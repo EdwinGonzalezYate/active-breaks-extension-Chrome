@@ -1,4 +1,4 @@
-# Pausas-Activas-Extensión
+# Active-breaks-extension-Chrome
 Tus pausas activas estarán programadas a tu preferencia
 
 Tenemos los mejores ejercicios de pausas para preservar tu salud y mejorar tu condición de vida.
