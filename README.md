@@ -21,7 +21,7 @@ See https://developer.chrome.com/extensions/getstarted if you are having any tro
 
 
 ```javascript
-// Change the periodInMinutes property to set time interval
+// Cambiar estas variables para configurar la hora de alarma
 var horaD = 13;
 var minutoD = 4;
 ```
