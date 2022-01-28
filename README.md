@@ -1,4 +1,4 @@
-# Pausas-Activas-Extensión
+# Active-breaks-extension-Chrome
 Tus pausas activas estarán programadas a tu preferencia
 
 Tenemos los mejores ejercicios de pausas para preservar tu salud y mejorar tu condición de vida.
@@ -21,11 +21,11 @@ See https://developer.chrome.com/extensions/getstarted if you are having any tro
 
 
 ```javascript
-// Change the periodInMinutes property to set time interval
+// Cambiar estas variables para configurar la hora de alarma
 var horaD = 13;
 var minutoD = 4;
 ```
 Más detalles sobre la extensión en **manifest.json**.
 
 ## Contact
-Estás experimentando dificultades? Contáctanos: contacto@artntech.com.co
+Estás experimentando dificultades? Contáctanos: contacto@artntech.com.co https://www.artntech.com.co
