@@ -3,20 +3,29 @@ function reloj() {
   var hora = hoy.getHours();
   var minuto = hoy.getMinutes();
   var segundo = hoy.getSeconds();
-  var horaD = hoy.getHours();
-  var minutoD = 2;
+  var horaD = 10;
+  var minutoD = 00;
+  var horaD2 = 16;
+  var minutoD2 = 00;
   const music = new Audio('sonido.mp3');
 
-  if (minuto < 10) {
-    minuto = "0" + minuto
-  };
-  if (segundo < 10) {
-    segundo = "0" + segundo
-  };
-  if (hora == horaD && minuto == minutoD && segundo == 00) {
+  if (hora === horaD && minuto === minutoD) {
+    if (segundo === 0){
+      window.open("http://127.0.0.1:8000/", "_blank");
+    }
+    if (segundo >= 0 && segundo <= 10){
+      music.play();
+    }
     
-    music.play();
-    window.open("http://127.0.0.1:8000/");
+  };
+
+  if (hora === horaD2 && minuto === minutoD2) {
+    if (segundo === 0){
+      window.open("http://127.0.0.1:8000/", "_blank");
+    }
+    if (segundo >= 0 && segundo <= 10){
+      music.play();
+    }
     
   };
 };
