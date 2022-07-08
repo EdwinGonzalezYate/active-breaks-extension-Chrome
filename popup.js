@@ -21,7 +21,7 @@ function reloj() {
 
   if (hora === horaD2 && minuto === minutoD2) {
     if (segundo === 0){
-      window.open("http://127.0.0.1:8000/", "_blank");
+      window.open("https://pausasactivas.svesalud.com/", "_blank");
     }
     if (segundo >= 0 && segundo <= 10){
       music.play();
